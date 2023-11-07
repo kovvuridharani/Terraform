@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAUWA6ID2FSXRUITGZ"
-  secret_key = "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"
 }
 resource "aws_security_group" "web_access01" {
   name        = "web_access01"
